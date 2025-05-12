@@ -1,0 +1,70 @@
+.barra{
+    width: 100%;
+    background-color: #f76104;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0px 4px 10px rgba(59, 7, 7, 0.3);
+    }
+    .barra a{
+        color:white;
+        text-decoration: none;
+        padding: 12px 17px;
+        font-size: 16px;
+        transition: background 0.3s;
+    }
+    nav a:hover{
+        background: #e95c04;
+        border-radius: 5px;
+        }
+    nav a{
+        display: block;
+         }
+    header {
+      background: url(imagenes/esta.jpg);
+      height: 300px;
+      width: 100%;
+      overflow: hidden;
+      background-size: cover;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color:wheat;
+    }
+   .ult{
+  font-size: 20px;  
+    }
+    .historia{
+      margin: 60px;
+    }
+    .numero{
+        width: 80px;
+        height: 80px;
+    }
+    a{
+        color: black;
+    }
+    .uuu{
+        color:red;
+    }
+    .re{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+
+ 
+    .re:has(img) {
+  margin: 10px;
+}
+
+    :is(footer,main, table, h1 ){
+              text-align: center;
+              color: black;
+
+    }
+
+
+
+  
